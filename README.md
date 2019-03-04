@@ -1,12 +1,5 @@
 # 一个提供 Option 和 Result  的 TypeScript 库
-ts-match
 ========
-
-A small matching library for TypeScript. The API is a single function defined as:
-
-```typescript
-function match<T, R>(input: T, defaultCase: IDefaultCase<R>, ...cases: ICase<T, R>[]): R
-````
 
 Example:
 
